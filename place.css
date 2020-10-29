@@ -1,0 +1,387 @@
+/* boxzero */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: sans-serif;
+}
+.box-zero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(#080122,palevioletred);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.box-zero img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    opacity: 0.2;
+    animation: opacity 5s infinite;
+
+}
+.content {
+    position: relative;
+    width: 750px;
+    text-align: center;
+    letter-spacing: 2px;
+   
+}
+.content h2{
+    color: rgb(0, 255, 255);
+    font-size: 40px;
+    letter-spacing: 2px;
+    animation: mymove 5s infinite;
+}
+.content p{
+    color: white ;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    animation: cont 5s infinite;
+}
+.box-zero header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 460px;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 10000;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    animation: logo 5s infinite;
+}
+
+@keyframes mymove {
+    50% {letter-spacing: 30px; color:white;}   
+}
+@keyframes logo {
+    50% {letter-spacing: 10px; color:rgb(0, 255, 255);}     
+}
+@keyframes opacity {
+    50% {opacity:0.7 ;}   
+}
+@keyframes cont {
+    {letter-spacing: 0px; color:rgb(0, 255, 255);}     
+}
+
+
+
+
+/*box one*/
+
+.box-one{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.wonder-one{
+    background:linear-gradient(#080122,red);
+    padding: 100px;
+    width: 50%;
+}
+.one-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.img-one{
+    background:url(https://www.businessdestinations.com/wp-content/uploads/2019/08/Machu-Picchu-1024x602.jpg) ;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color:red;
+}
+
+/* boxtwo*/
+
+.img-two{
+    background: url(https://mcdn.wallpapersafari.com/medium/57/65/adtHB8.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+}
+
+.box-two{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.wonder-two{
+    background: linear-gradient(#080122,orange);
+    padding: 100px;
+    width: 50%;
+}
+.two-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*boxthree*/
+
+.box-three{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.wonder-three{
+    background:linear-gradient(#080122,yellow);
+    padding: 100px;
+    width: 50%;
+}
+.three-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.img-three{
+    background:url(https://4.bp.blogspot.com/-T4xvHdJmbTo/VLoIaGlePAI/AAAAAAAANfc/fnxDORD9P5A/s1600/Taj%2BMahal%2BAnimation.gif) ;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+}
+
+/*boxfour*/
+
+.img-four{
+    background: url(https://static.toiimg.com/photo/53114296/.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+}
+
+.box-four{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.wonder-four{
+    background:linear-gradient(#080122,green);
+    padding: 100px;
+    width: 50%;
+}
+.four-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*boxfive*/
+
+.box-five{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.wonder-five{
+    background:linear-gradient(#080122,blue);
+    padding: 100px;
+    width: 50%;
+}
+.five-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.img-five{
+    background:url(https://ak2.picdn.net/shutterstock/videos/25832282/thumb/4.jpg) ;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+}
+
+/*boxsix*/
+
+
+.img-six{
+    background: url(https://i.pinimg.com/736x/6f/bc/b6/6fbcb6c3b964126a9cb11356df3695e3.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+}
+
+.box-six{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.wonder-six{
+    background: linear-gradient(#080122,indigo);
+    padding: 100px;
+    width: 50%;
+}
+.six-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*boxseven*/
+
+.box-seven{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.wonder-seven{
+    background:linear-gradient(#080122,violet);
+    padding: 100px;
+    width: 50%;
+}
+.seven-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.img-seven{
+    background:url(https://www.ancient-origins.net/sites/default/files/field/image/Chichen-Itza.jpg) ;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+}
+
+/*service*/
+
+.service{
+    padding: 100px;
+    text-align: center;
+    background: linear-gradient(#080122,#121B42);
+}
+.service-head{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.service p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*ourclients*/
+
+.client{
+    background:linear-gradient(#080122,#20068A,#D7177D) ;
+    padding: 100px;
+    text-align: center;
+}
+.client-head{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.client p{
+    color:white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn-primary
+{
+    border-radius: 1.5rem;
+    border: none;
+    width: 250px;
+    background: rgb(241, 228, 228);
+    font-weight: 600;
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    background: transparent;
+}
+.btn-primary:hover
+{
+    background:linear-gradient(white,violet,pink,whitesmoke);
+    box-shadow: 0 5px 25px 0 red inset,0 5px 25px 0 blue,
+                0 5px 25px 0 indigo inset,0 5px 25px 0 yellow;
+}
+
